@@ -1,0 +1,56 @@
+.main__form{
+  background-color:#bae8e8 !important;
+  padding:20px !important ;
+  border-radius:10px !important;
+  width:30vw !important;
+  box-shadow: 0.5rem 0.5rem #418c9f, -0.5rem -0.5rem #72e8e1 !important
+}
+
+@media screen and (max-width: 992px) {
+    .main__form{
+      width:80vw !important;
+    }
+    .main__button{
+      width:22vw !important;
+    }
+  }
+
+.main__button{
+    transition:0.5s !important;
+    background-color:#272343 !important;
+    color:#aeccc6 !important;
+    font-weight:bold !important;
+    width:8vw ;
+    height:6vh !important;
+}
+
+.main__button:hover{
+    background-color: #72E7E1 !important;
+    color: #272343 !important;
+    border-radius:9px;
+    letter-spacing:1px;
+}
+
+
+
+.main__modal{
+  position:fixed !important;
+  top:30% !important;
+}
+
+
+.main__modalheader{
+  color:red !important;
+  font-size:1.5rem;
+  font-weight:900;
+  letter-spacing:3px;
+}
+
+.main__modalbody{
+  text-align:center;
+}
+
+.form__label{
+  font-weight:bold !important;
+  color:'#272343' !important;
+}

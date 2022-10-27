@@ -1,0 +1,53 @@
+.result__button{
+    background-color:#418B9F !important;
+    opacity:0.8;
+    transition:0.4s !important;
+    border:none !important;
+    color:white !important;
+    width:100%;
+    background-color:#418B9F;
+    letter-spacing:3px
+}
+
+.result__button:hover{
+    color:black !important;
+    opacity:1;
+}
+
+.card__container{
+    margin-top:10vh;
+}
+
+.main__card{
+    width:100%;
+    box-shadow:0.5rem 0.5rem #418c9f, -0.5rem -0.5rem #72e8e1;
+}
+
+.card__image{
+    object-fit:contain !important; 
+}
+
+.card__header{
+    text-align:center;
+    font-weight:500;
+    font-size:2em
+}
+
+.card__span{
+    color:red;
+    font-size:2em;
+    font-weight:600
+}
+
+.card__subtitle{
+    text-transform:uppercase;
+    letter-spacing:5px;
+    font-size:1.2em !important;
+    color:red;
+    font-weight:600!important;
+}
+
+.list__span{
+    color:red;
+    font-weight:600
+}

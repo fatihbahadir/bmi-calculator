@@ -1,0 +1,55 @@
+.navbar__container{
+    background-color: #bae8e8;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.2);
+    border-radius: 4px ;
+}
+
+.nav__brandText{
+    display: inline-block !important;
+    line-height: 60px !important;
+    margin-left: 10px !important;
+    color: #272343 !important;
+    font-weight: bold !important;
+}
+.nav__link{
+    color:#272343 !important;
+    font-weight:700 !important;
+    margin-right:35px;
+    transition: 0.3s !important ;
+}
+
+.nav__items{
+    margin-left:auto;
+}
+
+.last{
+    margin-right:0px;
+}
+
+.nav__link:hover{
+    
+    color: #418c9f !important;
+    transform:scale(1.1);
+}
+
+.nav__brand{
+    cursor:pointer;
+    transition: 0.3s !important;
+}
+
+.nav__brand:hover{
+    transform:translateX(3px);
+}
+
+@media screen and (max-width: 600px) {
+    .nav__link:hover {
+        color: #4040a1 !important;
+        transform:translateX(3px) !important;
+    }
+  }
+
+.active{
+    color:#E10059 !important;
+    font-size:17px !important;
+}
+

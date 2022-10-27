@@ -1,0 +1,18 @@
+.nav{
+    width:100% !important;
+    text-align:center !important;
+    color:#272343 !important;
+    background-color:#ADD8E6 !important;	
+    font-weight:600 !important;
+    letter-spacing:2px;
+    transition:0.4s !important;
+  }
+
+  .nav:hover{
+    letter-spacing:3px;
+    color:#418B9F !important;
+  }
+
+  .nav__container{
+    height:5vh; 
+  }
