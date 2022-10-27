@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from "react";
 
 import SpinnerComponent from "../components/SpinnerComponent";
-import { Table } from "react-bootstrap";
+import { Button, Table } from "react-bootstrap";
+import { useDispatch } from "react-redux";
+import { clearData } from "../features/bmiInfo/bmiInfoSlice";
 
 const History = () => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState(JSON.parse(localStorage.getItem("data")));
+  const dispatch=useDispatch();
+
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
@@ -43,6 +47,17 @@ const History = () => {
           )}
         </tbody>
       </Table>
+      <Button onClick={()=>{
+        if(data){
+          setData("")
+          dispatch(clearData())
+        }
+        else{
+        }
+
+       
+       }} variant="outline-secondary" style={{width:'100%'}}>Clear Data</Button>
+
     </div>
   );
 };

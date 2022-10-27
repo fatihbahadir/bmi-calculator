@@ -5,9 +5,6 @@ import "../assets/styles/Result.css";
 const ResultContainer = (props) => {
   const [show, setShow] = useState(false);
   const { bmiValue } = useSelector((state) => state.bmiInfo);
-  useEffect(() => {
-    console.log(props.dietList);
-  });
   return (
     <>
       <Container className="card__container">

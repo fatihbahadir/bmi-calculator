@@ -58,9 +58,9 @@ const FormComponent = () => {
             if (name && weight && height) {
               e.preventDefault();
               if (
-                JSON.parse(localStorage.getItem("data")).slice(-1)[0].name !==
+                JSON.parse(localStorage.getItem("data"))?.slice(-1)[0].name !==
                   name ||
-                JSON.parse(localStorage.getItem("data")).slice(-1)[0].bmi !==
+                JSON.parse(localStorage.getItem("data"))?.slice(-1)[0].bmi !==
                   bmiValue
               ) {
                 dispatch(calculateBmi({ weight, height }));

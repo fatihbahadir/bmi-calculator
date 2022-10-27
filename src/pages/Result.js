@@ -23,8 +23,8 @@ const Result = () => {
   useEffect(() => {
     if (name) {
       if (
-        JSON.parse(localStorage.getItem("data")).slice(-1)[0].name !== name ||
-        JSON.parse(localStorage.getItem("data")).slice(-1)[0].bmi !== bmiValue
+        JSON.parse(localStorage.getItem("data"))?.slice(-1)[0].name !== name ||
+        JSON.parse(localStorage.getItem("data"))?.slice(-1)[0].bmi !== bmiValue
       ) {
         setTimeout(() => {
           var dataList = JSON.parse(localStorage.getItem("data") || "[]");

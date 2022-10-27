@@ -26,8 +26,7 @@ export const bmiInfoSlice = createSlice({
       );
     },
     clearData: (state) => {
-      state = initialState;
-      console.log("ben çalıştım");
+      localStorage.removeItem('data')
     },
   },
 });
