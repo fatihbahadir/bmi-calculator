@@ -57,8 +57,12 @@
   height:100%;
 }
 @media screen and (max-width: 770px) {
-  .about__title:hover {
-    letter-spacing: 6px !important;
+  .about__title{
+    letter-spacing:1px !important;
+    font-size:35px !important;
+  }
+  .about__title:hover{
+    letter-spacing:1px !important;
   }
   .about__image {
     display: none;

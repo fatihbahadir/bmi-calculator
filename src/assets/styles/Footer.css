@@ -16,3 +16,10 @@
   .nav__container{
     height:5vh; 
   }
+
+  @media screen and (max-width: 770px) {
+   .nav{
+    letter-spacing:1px;
+    font-size:10px !important;
+   }
+  }
