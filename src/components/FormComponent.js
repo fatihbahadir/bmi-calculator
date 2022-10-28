@@ -66,6 +66,7 @@ const FormComponent = () => {
                 dispatch(calculateBmi({ weight, height }));
                 navigate("/result");
               } else {
+                alert("Your name is same with as before.You are now redirecting to result page.")
                 navigate("/result");
               }
             } else {

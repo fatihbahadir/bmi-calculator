@@ -27,8 +27,8 @@ const AboutInfo = (props) => {
           ))}
           {
             <dl>
-              {props.list?.map((text) => (
-                <li className="about__content-list">{text}</li>
+              {props.list?.map((text,index) => (
+                <li key={index} className="about__content-list">{text}</li>
               ))}
             </dl>
           }

@@ -7,7 +7,7 @@ const ResultContainer = (props) => {
   const { bmiValue } = useSelector((state) => state.bmiInfo);
   return (
     <>
-      <Container className="card__container">
+      <Container style={{paddingBottom:'70px'}} className="card__container">
         <Card className="main__card">
           <Card.Img className="card__image" height="200" src={props.img} />
           <Card.Header className="card__header">

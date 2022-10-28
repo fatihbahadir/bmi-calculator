@@ -30,7 +30,7 @@ const NavBar = () => {
               className="d-inline-block align-top"
             />
             <div className="nav__brandText" style={{}}>
-              BMI CALCULATION
+              BMI CALCULATOR
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
