@@ -4,9 +4,8 @@
 <br/>
 
 ## Tech Stack
--ReduxJS/Toolkit
--React-Bootstrap
--React-Router-Dom
--Local Storage
-
+- ReduxJS/Toolkit
+- React-Bootstrap
+- React-Router-Dom
+- Local Storage
 <br/>
