@@ -1,9 +1,9 @@
-#BMI CALCULATOR
+# BMI CALCULATOR
 
 ### <a href="https://bmi-calculator-one-beta.vercel.app/">Live Project</a>
 <br/>
 
-##Tech Stack
+## Tech Stack
 -ReduxJS/Toolkit
 -React-Bootstrap
 -React-Router-Dom
