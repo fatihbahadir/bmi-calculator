@@ -12,7 +12,7 @@
 
 ## Demo
 
-![alt text](http://url/to/img.png)
+![alt text](src/assets/images/demo-images/imageOne.png)
 ![alt text](http://url/to/img.png)
 ![alt text](http://url/to/img.png)
 ![alt text](http://url/to/img.png)
