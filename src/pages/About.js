@@ -17,7 +17,7 @@ const About = () => {
     return <SpinnerComponent />;
   }
   return (
-    <>
+    <div style={{paddingBottom:'35px'}}>
       <h2 className="about__title" style={{}}>
         <span style={{ color: "#804E21" }}>⁉️</span> ABOUT BMI{" "}
         <span style={{ color: "#804E21" }}>⁉️</span>
@@ -47,7 +47,7 @@ const About = () => {
           paragraphs={thirdCart.paragraphs}
         />
       </Container>
-    </>
+    </div>
   );
 };
 

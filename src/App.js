@@ -8,7 +8,7 @@ import Footer from "./components/FooterComponent";
 import NavBar from "./components/NavBar";
 function App() {
   return (
-    <div style={{ minHeight: "100vh", backgroundColor: "#e3f6f5" }}>
+    <div style={{ minHeight: "100vh",overflowX:'hidden', backgroundColor: "#e3f6f5" }}>
       <NavBar />
       <Routes>
         <Route index path="/" element={<Main />} />
